@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body,html{
+            background-image: url(https://woorise.com/wp-content/uploads/2021/03/Online-event-registration-1024x512.png);
+            background-size: cover;
+            background-position: center;
+            height: 140vh;
+        }
+        .code{
+          border: 2px solid white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 50px;
+          color: white;
+        
+        }
+        .log{
+        justify-content: space-between;
+        padding: 10px 50px;
+        margin-right: -30px;
+        word-spacing: 10px;
+        }
+        .header{
+            background:red;
+            border-radius: 10px 10px 0 0;
+            color: white;
+            padding-top: 0.5px;
+            padding-left: 10px;
+            font-size: 12px;
+            font-weight: bold
+        }
+        .container{
+            width: 500px;
+            margin: 20px auto;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .box{
+            display: flex;
+            border: 5px;
+            border-radius: 2px;
+            background-color: lightgrey;
+            width: 480px;
+            margin-left: 10px
+        }
+        .text{
+            padding-block: 1px;
+            padding-inline: 2px;
+            text-align: right;
+            padding-right: 100px
+        }
+        label {
+          display: inline-block;
+          margin-bottom: 10px
+        }
+        .text1{
+            padding-block: 1px;
+            padding-inline: 2px;
+            text-align: right;
+            padding-right: 50px
+        }
+        .box1{
+            border: 1px;
+            background-color: rgb(243, 242, 242);
+            width: 480px;
+            margin-left: 10px;
+            margin-top: -15px
+        }
+        .register {
+             font-size: 36px;
+             font-weight: bold;
+        }
+        .dotcom {
+            font-size: 20px;
+            vertical-align: baseline;
+            margin-left: 2px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="code">
+  <h2><b>Coding lab</h2></b>
+    <b><button style="border-radius: 2px; width:90px"><a href="login.html" style="color: red;">Login</a></button></div>
+    <div class="container" >
+    <div class="header">
+        <p>
+  <span class="register" style="margin-left: 190px">Register</p>
+    </div>
+   <p><h2 style="margin-left: 15px">Create Your Account</h2></p>
+   <p><span style="color:red; margin-left: 12px">* Required Information</span></p>
+   <form action="login.html" method="post">
+   <p><div class="box"><b>Basic Information</b></div></p>
+   <div class="box1">
+   <div class="text">
+   <p><label>Email<span style="color: red">*</span></label>
+   <input type="email" name="email" id="email" maxlength="50" required></p>
+   <p><label>Password<span style="color: red">*</span></label>
+   <input type="password" name="password" id="password" maxlength="12" pattern="(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{8,16}"
+         title="Must contain 1 uppercase letter, 1 number, 1 special character, and be 8–16 characters long" required></p>
+   <p><label>Confirm Password<span style="color: red">*</span></label>
+   <input type="password" name="password" id="confirm" required></p>
+    <p><label>First Name<span style="color: red">*</span></label>
+    <input type="text" name="first name" id="name" maxlength="15" required></p>
+    <p><label>Last Name<span style="color: red">*</span></label>
+    <input type="text" name="last name" id="name" maxlength="15" required></p>
+    <p><label>Phone Number<span style="color: red">*</span></label>
+    <input type="phno" name="phno" placeholder="999-999-9999" id="phno" maxlength="10" required></p>
+    <p><label>Address<span style="color: red">*</span></label>
+    <input type="text" name="address" id="address"></p>
+    <p><label>City<span style="color: red">*</span></label>
+    <input type="text" name="city" id="city" maxlength="15" required></p>
+    <p><label>Country<span style="color: red">*</span></label>
+    <input type="text" name="country" id="country" maxlength="20" required></p></div>
+</div>
+<p><b><div class="box">Education</b></div></p>
+<div class="box1">
+<div class="text">
+<p><label>Education level<span style="color: red">*</span></label>
+<select id="Education Status" style="width: 181px;">
+        <option>Select</option>
+            <option 1>Graduated</option>
+            <option 2>Current Enrolled</option>
+            <option 3>Did Not Graduate</option>
+      </div></select>
+      <p><label>Program<span style="color: red">*</span></label>
+<input type="text" name="program" id="program" maxlength="30" required></p>
+<p><label>Graduation Date</label>
+<input type="date" name="date" id="date" required style="margin-right: 40px"></div></p></div>
+<p><a href="register.html" i><input type="button" value="Reset" id="reset" style="width: 90px; margin-right: 10px; margin-left: 170px; margin-bottom: 5px; background-color: red; color: white; font-weight: bold" ></a>
+<input type="submit" value="Submit" style="width: 90px; margin-right: 100px; background-color: red; color: white; font-weight: bold"></div></p></a>
+</div></div></div></form>
+</body>
+</html>
