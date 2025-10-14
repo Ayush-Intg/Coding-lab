@@ -1,51 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
-    <style>
-    .code{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 50px;
-        background-color: white;
-    }
-    .label{
-        border:2px;
-        align-items: center;
-        margin-right: -150px;
-        word-spacing: 20px;
-    }
-    .log{
-        justify-content: space-between;
-        padding: 10px 50px;
-        margin-right: -30px;
-        word-spacing: 10px;
-    }
-    .img{
-        background-image: url(https://img.goodfon.com/original/1920x1080/e/c7/awe-dropping-2025-apple-new-product-event-temnyi-fon-dark-ba.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-    }
-    </style>
-</head>
-<body>
-    <div class="img">
-    <div class="code">
-  <h2>Coding lab</h2>
-  <div class="label">
-  <b><a href="#">Home</a>
-  <a href="#">Products</a>
-  <a href="#">Services</a>
-  <a href="#">Contact</a></b></div>
-  <div class="log">
-    <b><a href="login.html">Login</a>
-    <a href="register.html">Register</a></b>
-  </div>
-</div>
-</div>
-</body>
-</html>
+# 📝 Registration Website
+
+A simple and responsive **user registration website** built using **HTML and CSS**.  
+This project demonstrates the design and structure of a registration form interface, created for learning and front-end development practice.
+
+---
+
+## 🚀 Features
+
+- Clean and modern user interface  
+- Responsive design (works on desktop and mobile)  
+- Registration form with input validation (HTML5)  
+- Organized structure with separate CSS file  
+- Ready to connect with backend or Firebase for real user login
+
+---
+
+## 🧠 Technologies Used
+
+- **HTML5** – for structure  
+- **CSS3** – for styling and layout  
+
+---
+
+## 📂 Project Structure
+
