@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Home</title>
     <style>
     .code{
         display: flex;
@@ -30,6 +30,16 @@
         background-position: center;
         height: 100vh;
     }
+    .label a{
+            text-decoration: none;
+            color: black;
+    }
+    nav a:hover{
+        color: blue;
+    }
+    nav a.active{
+        font-weight: bold;
+    }
     </style>
 </head>
 <body>
@@ -37,10 +47,12 @@
     <div class="code">
   <h2>Coding lab</h2>
   <div class="label">
-  <b><a href="#">Home</a>
+    <nav>
+  <b><a href="#" class="active">Home</a>
   <a href="Products.html">Products</a>
   <a href="Services.html">Services</a>
-  <a href="#">Contact</a></b></div>
+  <a href="contact.html">Contact</a></b></div>
+  </nav>
   <div class="log">
     <b><a href="login.html">Login</a>
     <a href="register.html">Register</a></b>

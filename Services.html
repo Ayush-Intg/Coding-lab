@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Services</title>
     <style>
         body,html{
             background-image: url(https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?_gl=1*10uzqzk*_ga*Nzg3MDUwNzQzLjE3NjAwMDExODU.*_ga_8JE65Q40S6*czE3NjA1OTczNTMkbzIkZzEkdDE3NjA1OTc0MDEkajEyJGwwJGgw);  
@@ -38,16 +38,29 @@
         margin-right: -50px;
         word-spacing: 10px;
         }
+        .label a{
+            text-decoration: none;
+            color: black;
+        }
+         nav a:hover{
+        color: blue;
+    }
+    nav a.active{
+        font-weight: bold;
+        transition: 0.5s;
+    }
     </style>
 </head>
 <body> 
      <div class="code">
   <h2>Coding lab</h2>
   <div class="label">
+    <nav>
   <b><a href="index.html">Home</a>
   <a href="Products.html">Products</a>
-  <a href="#">Services</a>
-  <a href="#">Contact</a></b></div>
+  <a href="#" class="active">Services</a>
+  <a href="contact.html">Contact</a></b></div>
+  </nav>
   <div class="log">
     <b><a href="login.html">Login</a>
     <a href="register.html">Register</a></b>

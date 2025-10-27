@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Products</title>
     <style>
+        body,html{
+            background-color: lightpink
+        }
         .box{
             border: 2px solid black;
             width: 300px;
@@ -25,50 +28,70 @@
         margin-right: -150px;
         word-spacing: 20px;
          }
+         .log{
+        justify-content: space-between;
+        padding: 10px 50px;
+        margin-right: -30px;
+        word-spacing: 10px;
+        }
+        .label a{
+            text-decoration: none;
+            color: black;
+            
+        }
+         nav a:hover{
+        color: blue;
+    }
+    nav a.active{
+        font-weight: bold;
+        transition: 0.5s;
+    }
     </style>
 </head>
 <body>
     <div class="code">
   <h2>Coding lab</h2>
   <div class="label">
+    <nav>
   <b><a href="index.html">Home</a>
-  <a href="#">Products</a>
+  <a href="#" class="active">Products</a>
   <a href="Services.html">Services</a>
-  <a href="#">Contact</a></b></div>
+  <a href="contact.html">Contact</a></b></div>
+  </nav>
   <div class="log">
     <b><a href="login.html">Login</a>
     <a href="register.html">Register</a></b>
     </div>
 </div>
-    <div class="box">
+    <div class="box" style="margin-left: 50px">
         <h1>Acessibility & HTML</h1>
         <p>Many visually-impaired users browse the Internet with use of a screen reader</p>
     </div>
-    <div class="box">
+    <div class="box" style="margin-left: 400px; margin-top: -205px">
         <h1>Bootstrap: Creating Menus, Navbars & Modals</h1>
         <P>We'll use Bootstrap to implement these three common website features</P>
     </div>
-    <div class="box">
+    <div class="box" style="margin-left: 750px; margin-top: -205px">
         <h1>Browser compatibility</h1>
         <p>Learn how to make your sites work across all browsers and browser versions</p>
     </div>
-    <div class="box" style="width: 350px;">
+    <div class="box" style="width: 350px; margin-left: 1100px; margin-top: -205px">
         <h1>Create and View a Web Page on Your Computer</h1>
         <p>If you've completed many codecademy courses but still find yourself asking, "Where can I write...</p>
     </div>
-    <div class="box">
+    <div class="box" style="margin-left: 50px; margin-top: 100px">
         <h1>Create your First Local HTML/CSS Project</h1>
         <p>Use the tools on your own computer to start your own HTML/CSS project</p>
     </div>
-    <div class="box">
+    <div class="box" style="margin-left: 400px; margin-top: -203px">
         <h1>CSS3 Features</h1>
         <p>Overview of CSS3 featured used in the Make a Webiste course</p>
     </div>
-    <div class="box">
+    <div class="box" style="margin-left: 750px; margin-top: -203px">
         <h1>How to Convert CSS to SCSS</h1>
         <p>Guide on converting CSS to SCSS syntax</p>
     </div>
-    <div class="box">
+    <div class="box" style="margin-left: 1105px; margin-top: -203px; width: 300px">
         <h1>CSS Glossary</h1>
         <p>Programming reference for CSS covering Comments, Properties & Selectors</p>
     </div>
